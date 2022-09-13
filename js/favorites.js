@@ -78,7 +78,7 @@ update() {
   if ((this.entries).length === 0){
     this.removeAllTr()
     const tr = document.createElement('tr')
-    tr.innerHTML=`<td class="empty"><img src="./img/star.svg"></img><span>Nenhum favorito ainda</span></td>`
+    tr.innerHTML=`<td class="empty"><img src="https://raw.githubusercontent.com/WillMR94/projeto06-RS/main/img/star.svg"></img><span>Nenhum favorito ainda</span></td>`
     const empty= document.querySelector('.empty')
     console.log(tr)
     this.tbody.append(tr)}
