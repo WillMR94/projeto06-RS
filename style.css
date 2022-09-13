@@ -30,7 +30,7 @@ background-color: var(--primary-color);
 
 #app{
 min-width: 112rem;
-margin: 0 auto;
+margin: 0 auto 20px;
 padding: 0 2rem;
 display: flex;
 flex-direction: column;
@@ -74,10 +74,11 @@ gap: 8px;
 
 .search input{
 background-color: #06181C;
+color: white;
 height: 4.8rem;
 border:0;
 border-radius: 5px;
-padding: 0 5px;
+padding: 0 15px;
 width: 46.2rem;
 }
 
